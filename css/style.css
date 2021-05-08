@@ -1,0 +1,114 @@
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+.container {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    width: 73vw;
+}
+
+.header {
+    padding: 100px 450px;
+}
+
+.who_we_are {
+    font-size: 12px;
+    font-weight: bold;
+    color: #898f99;
+    text-align: center;
+}
+
+.greeting {
+    font-size: 48px;
+    font-weight: 400;
+    color: #0ec8cb;
+    text-align: center;
+}
+
+.about_us {
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    color: #999999;
+    text-align: center;
+}
+
+.skills {
+    padding: 0 170px;
+    font-size: 0;
+}
+
+.skill_container {
+    display: inline-block;
+    width: 19%;
+    padding: 50px 30px 80px;
+    background: #f7f7f7;
+    border: 1px solid #ededed;
+}
+
+.skill_content {
+    text-align: center;
+}
+
+.design_icon {
+    content: "";
+    background: url("../image/css_sprites.png") -94px -10px;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+}
+
+.skill_container:hover {
+    color: #ffffff;
+    background: #0ec8cb;
+}
+
+.skill_container:hover .design_icon {
+    background-position: -10px -10px;
+}
+
+.develop_icon {
+    content: "";
+    background: url("../image/css_sprites.png") -178px -10px;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+}
+
+.skill_container:hover .develop_icon {
+    background-position: -10px -96px;
+}
+
+.graphics_icon {
+    content: "";
+    background: url("../image/css_sprites.png") -10px -180px;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+}
+
+.skill_container:hover .graphics_icon {
+    background-position: -96px -180px;
+}
+
+.illustrations_icon {
+    content: "";
+    background: url("../image/css_sprites.png") -95px -96px;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+}
+
+.skill_container:hover .illustrations_icon {
+    background-position: -179px -96px;
+}
+
+.skill_content_title {
+    font-size: 18px;
+}
+
+.skill_content_info {
+    font-size: 14px;
+    color: #777777;
+}
